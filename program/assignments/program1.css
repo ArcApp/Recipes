@@ -1,0 +1,81 @@
+/*James Bagwell, #002-00-4528, Web Programming
+Extra features: Background, Widen headings letter spacing
+*/
+body {
+    background-image: url('yellowimage.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #000;
+    font-family: Georgia;
+}
+
+h1, h2 {
+    font-family: Verdana;
+    display: block;
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    letter-spacing: 10px;
+}
+
+.big {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#head {
+    display: block;
+    width: 85%;
+    margin: 10% auto;
+}
+
+.navbar ul {
+    display: block;
+    list-style-type: none;
+    overflow: auto;
+}
+
+.navbar li {
+   float: left;
+   border-right: 10px solid #036;
+   margin: 5px;
+   padding: 10px;
+   background-color: #F0F0F0;
+}
+
+.navbar{
+    clear: both;
+}
+
+table {
+    margin-top: 20px;
+    background-color: #C93;
+}
+
+caption {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-weight: bold;
+}
+
+td {
+    color: #FFF;
+    background-color: #C93;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+th {
+    color: #FFF;
+    background-color: #036;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+tr {
+    border: 2px solid white;
+}
